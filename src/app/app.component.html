@@ -3,7 +3,7 @@
   <p>
     Enter in the number of balls in queue (27-127)
   </p>
-  <input value="30" #queueInput /><button (click)="mainClock.loadBalls(queueInput.value)" >Submit</button>
+  <input  #queueInput /><button (click)="mainClock.loadBalls(queueInput.value)" >Submit</button>
   <br>
   {{mainClock.warning}}
 </div>
